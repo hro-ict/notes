@@ -1,0 +1,2 @@
+sudo apt install firewalld
+ sudo firewall-cmd --zone=public --add-port=1234/tcp --permanent
