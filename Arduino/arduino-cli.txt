@@ -1,0 +1,10 @@
+Upload sketch to arduia with CLI:
+
+1. Compile sketch:
+arduino-cli compile --fqbn esp8266:esp8266:nodemcu .\test\test.ino
+
+2. Upload sketch
+arduino-cli upload -p COM10  --fqbn esp8266:esp8266:nodemcu .\test\test.ino
+
+3. Open serial monitor
+arduino-cli monitor -p COM10 --config 115200
